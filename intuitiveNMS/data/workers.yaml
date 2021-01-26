@@ -1,0 +1,47 @@
+- name: intuitiveNMS server
+  host: localhost
+  worker_type: capture
+  connection_type: rabbitmq
+  sla_availability: 95
+  sla_response_time: 15
+  serial: 5CD8095MMW
+
+- name: intuitiveNMS server
+  host: localhost
+  worker_type: portscan
+  connection_type: rabbitmq
+  sla_availability: 95
+  sla_response_time: 15
+  serial: 5CD8095MMW
+
+- name: intuitiveNMS server
+  host: localhost
+  worker_type: traceroute
+  connection_type: rabbitmq
+  sla_availability: 95
+  sla_response_time: 15
+  serial: 5CD8095MMW
+
+- name: mikrotik router
+  host: 10.5.5.1
+  worker_type: capture
+  connection_type: rabbitmq
+  sla_availability: 95
+  sla_response_time: 15
+  serial: A1420A49BD54
+
+- name: mikrotik router
+  host: 10.5.5.1
+  worker_type: portscan
+  connection_type: rabbitmq
+  sla_availability: 95
+  sla_response_time: 15
+  serial: A1420A49BD54
+
+- name: mikrotik router
+  host: 10.5.5.1
+  worker_type: traceroute
+  connection_type: rabbitmq
+  sla_availability: 95
+  sla_response_time: 15
+  serial: A1420A49BD54
